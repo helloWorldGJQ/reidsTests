@@ -20,6 +20,7 @@ public class RedisTestController {
     public String testRedis(){
         System.out.println(456);
         System.out.println(123);
+        System.out.println(78910);
         redisTemplate.opsForValue().set("gjq","gjqnb");//加入一个键值对
         Object gjq = redisTemplate.opsForValue().get("gjq");//获取刚才加入的键值对的值
         System.out.println(this.result);
