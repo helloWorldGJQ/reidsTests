@@ -33,6 +33,7 @@ public class RedisTestController {
     @GetMapping("demo02")
     public String demo02(){
         System.out.println("gjq nb");
+        System.out.println("gjq nb222");
         System.out.println(this.result);
         this.result="789";
         return  "(String) gjq";
